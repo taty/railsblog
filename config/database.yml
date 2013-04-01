@@ -13,10 +13,10 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: railsblog
+  database: heroku_b4f7214fc143e4c
   pool: 5
-  username: root
-  password: root
+  username: b2a447a7a21be2
+  password: 4889efe9
   socket: /var/run/mysqld/mysqld.sock
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
