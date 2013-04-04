@@ -26,6 +26,14 @@ development:
   #database: db/test.sqlite3
   #pool: 5
   #timeout: 5000
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: heroku_b4f7214fc143e4c
+  pool: 5
+  username: b2a447a7a21be2
+  password: 4889efe9
+  socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: sqlite3

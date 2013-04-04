@@ -10,7 +10,9 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 end
 
-gem "mysql2", "~> 0.3.11"
+group :development, :production do
+  gem "mysql2", "~> 0.3.11"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
